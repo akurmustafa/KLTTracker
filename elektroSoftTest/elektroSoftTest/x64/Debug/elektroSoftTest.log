@@ -1,0 +1,34 @@
+﻿Build started 9.08.2017 11:31:25.
+     1>Project "C:\Users\kullanici\Documents\Visual Studio 2013\Projects\elektroSoftTest\elektroSoftTest\elektroSoftTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\opencv2-4-11\opencv\build\include" /Zi /nologo /W3 /WX- /sdl /Od /D "WIN32" /D _DEBUG /D _CONSOLE /D "_LIB" /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt imageReaing.cpp
+         imageReaing.cpp
+     1>imageReaing.cpp(5839): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>imageReaing.cpp(5857): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>imageReaing.cpp(5894): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>imageReaing.cpp(5920): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>imageReaing.cpp(5964): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>imageReaing.cpp(5965): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>imageReaing.cpp(5966): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>imageReaing.cpp(5967): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>imageReaing.cpp(5975): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>imageReaing.cpp(5976): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>imageReaing.cpp(5977): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>imageReaing.cpp(5978): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>imageReaing.cpp(6125): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>imageReaing.cpp(6132): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>imageReaing.cpp(6084): warning C4101: 'm' : unreferenced local variable
+     1>imageReaing.cpp(6084): warning C4101: 'j' : unreferenced local variable
+     1>imageReaing.cpp(6927): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>imageReaing.cpp(6965): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>imageReaing.cpp(6991): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>imageReaing.cpp(6998): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kullanici\Documents\Visual Studio 2013\Projects\elektroSoftTest\x64\Debug\elektroSoftTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\opencv2-4-11\opencv\build\include" opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kullanici\Documents\Visual Studio 2013\Projects\elektroSoftTest\x64\Debug\elektroSoftTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kullanici\Documents\Visual Studio 2013\Projects\elektroSoftTest\x64\Debug\elektroSoftTest.lib" /MACHINE:X64 x64\Debug\drawing.obj
+         x64\Debug\imageReaing.obj
+         elektroSoftTest.vcxproj -> C:\Users\kullanici\Documents\Visual Studio 2013\Projects\elektroSoftTest\x64\Debug\elektroSoftTest.exe
+     1>Done Building Project "C:\Users\kullanici\Documents\Visual Studio 2013\Projects\elektroSoftTest\elektroSoftTest\elektroSoftTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.84
